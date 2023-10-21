@@ -13,7 +13,7 @@ title: Home
 
     <time datetime="{{ post.date | date: " %Y-%m-%d" }}" class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
 
-    {% assign content_limit = 140 %}
+    {% assign content_limit = 85 %}
     {% assign post_content = post.content | strip_html | truncate: content_limit, "" %}
 
     {{ post_content }}

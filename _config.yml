@@ -1,6 +1,6 @@
 # Setup
 title: 450のブログ
-url: 
+url:
 paginate: 3
 baseurl: ""
 permalink: pretty
@@ -37,7 +37,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: 450
-  url: https://twitter.com/450hosigata
+  url:
   email:
 
 # Custom vars
@@ -46,7 +46,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /archive
+    url: /450.github.io/archive
 
   - title: About
-    url: /about
+    url: /450.github.io/about
